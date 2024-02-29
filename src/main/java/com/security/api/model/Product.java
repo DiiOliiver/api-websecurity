@@ -8,9 +8,9 @@ import org.hibernate.annotations.Where;
 import java.io.Serial;
 
 @Entity
+@Table(name = "products")
 @Getter
 @Setter
-@Table(name = "products")
 @NoArgsConstructor
 @AllArgsConstructor
 @Where(clause = "deleted_at is null")

@@ -6,8 +6,7 @@ import java.util.Date;
 
 @Getter
 @Setter
-public abstract class ApiDto {
+public abstract class ApiDTO {
 	private Long proId;
 	protected Date createdAt;
-	protected Date updatedAt;
 }
